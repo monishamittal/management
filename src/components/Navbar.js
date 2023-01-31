@@ -6,21 +6,18 @@ const Navbar = () => {
     return (
         <div>
             <nav>
-         <div class="logo">
-            SuvisdhaBnk
+         <div className='logo'>
+           Event Management
          </div>
          <input type="checkbox" id="click"/>
-         <label for="click" class="menu-btn">
-         <i class="fas fa-bars"></i>
+         <label for="click" className='menu-btn'>
+         <i className='fas fa-bars'></i>
          </label>
          <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><a className='active' href="#">Home</a></li>
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Partner With Us</a></li>
             <li><a href="#">Contact Us</a></li>
-            <button>login</button>
+            <button>Login</button>
          </ul>
       </nav>
         </div>
